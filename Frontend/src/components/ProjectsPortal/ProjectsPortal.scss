@@ -1,0 +1,47 @@
+.SalesCrm {
+  width: 100%;
+  height: 98%;
+  overflow: auto;
+  .options-bar {
+    // flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2px 0px 2px !important;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 600px;
+    overflow: auto;
+    // flex-basis: 100%;
+    border: medium;
+    border-style: groove;
+    // margin: 5px 20px;
+    padding: 4px 20px;
+    // background: white;
+    // height: 45px;
+    .options-bar-left-options {
+      // justify-content: flex-end;
+      height: 100%;
+      .options-bar-left-options-button {
+        margin-right: 6px;
+        // padding: 0px 6px;
+        border-radius: 10%;
+      }
+    }
+    .options-bar-right-options {
+      display: flex;
+      flex-direction: row-reverse;
+      padding-right: 1px;
+      height: 100%;
+
+      .options-bar-right-options-button {
+        margin-left: 6px;
+        // padding: 0px 6px;
+        border-radius: 10%;
+      }
+    }
+  }
+  .ant-table {
+    min-width: 600px;
+  }
+}

@@ -1,0 +1,89 @@
+@import "~antd/dist/antd.css";
+/* https://stackoverflow.com/a/4069794/2077741 */
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+.App {
+  background-color: lightgray;
+}
+/* AntD Table Header and Footer*/
+tfoot th,
+tfoot td {
+  background: #fafafa;
+}
+[data-theme="dark"] tfoot th,
+[data-theme="dark"] tfoot td {
+  background: #1d1d1d;
+}
+/*------------------*/
+
+.ant-layout-sider {
+  color: #fff;
+  // line-height: 20px;
+  overflow: hidden;
+  position: relative;
+  // height: 100%;
+  margin: 2px 5px 2px 5px;
+}
+
+.ant-layout-header {
+  // background: gray;
+  overflow-y: hidden;
+  overflow-x: auto;
+  color: #fff;
+  padding: 5px;
+  margin: 2px 5px 0px 0px;
+  height: 50px;
+}
+
+.ant-layout-content {
+  // background: black;
+  // color: #fff;
+  // border: medium;
+  // border-style: solid;
+  // border-color: black;
+  // min-height: 100%;
+  // line-height: 20px;
+  position: relative;
+  margin: 2px 5px 2px 0px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background: white;
+}
+
+.ant-layout-footer {
+  background: rgba(0, 0, 0, 0.54);
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+  padding: 12px 30px;
+  // line-height: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 1px;
+}
+.ant-modal-content {
+  background: white;
+  padding: 10px;
+  min-width: 520px;
+}
+.ant-divider {
+  margin: 0px !important;
+}
+.ant-modal-body {
+  padding: 25px 10px 0px 10px;
+}
+
+.ant-modal-close-x {
+  margin: -15px;
+}
+.ant-modal-close {
+  color: gray;
+}
